@@ -6,45 +6,52 @@
   </head>
   <!-- Main content -->
   <body>
-    <div class="navbar">
-        <li class="nav_left"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-       <li class="nav_left"><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-      <li class="nav_right"><img src="images/apps.png"></a></li>
-    <li class="nav_right"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
-     <li class="nav_right"><a href="https://mail.google.com">Gmail</a></li>
-    </ul>
+    <div id="header">
+      <ul>
+        <li class="left"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+        <li class="left"><a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+        <li class="right"><img src="images/apps.png"></li>
+        <li class="right"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+        <li class="right"><a href="https://mail.google.com">Gmail</a></li>
+      </ul>
     </div>
  <!-- Logo -->
-   <section id="main">
+    <main>
      <div id="logo">
        <a href="https://www.google.com/search?q=Will+Rogers&oi=ddle&ct=119277230&hl=en&sa=X&ved=0ahUKEwje4d_9jNHlAhXjHDQIHeMkACcQPQgO">   
        <img alt="Will Rogers’ 140th Birthday" border="0" height="220" src="https://www.google.com/logos/doodles/2019/will-rogers-140th-birthday-5988057453953024-law.gif" style="padding-top:0px" title="Will Rogers’ 140th Birthday" width="326" onload="typeof google==='object'&&google.aft&&google.aft(this)" data-iml="1572890353202" data-atf="1"></a>
     </div>
-<!-- Search bar and other buttons -->
-  <div id="input_container">
-    <form action="www.google.com" method="POST">
-      <input type="text" name="searchbar" id="searchbar">
-     <img src=https://image.flaticon.com/icons/svg/49/49116.svg id="searchicon">
-    <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" id="mic">
+<!-- Search bar -->
+    <div id="search">
+      <form action="www.google.com" method="POST">
+        <input type="text" name="search" id="search">
+        <img src=https://image.flaticon.com/icons/svg/49/49116.svg id="searchicon">
+        <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" id="mic">
+      </form>
     </div>
     <br>
-    <input type="submit" value="Google Search" class="search">
-    <input type="submit" value="I'm Feeling Lucky" class="search">
+    <!-- submit buttons -->
+    <div id="submits">
+      <input type="submit" value="Google Search" class="submit1">
+      <input type="submit" value="I'm Feeling Lucky" class="submit2">
+   </div>
     <br><br>
-    <a href="https://www.google.com/url?q=https://artsandculture.google.com/story/fAXh-ndcgalucw%3Futm_source%3Dgoogle%26utm_medium%3Dhppromo%26utm_campaign%3Dwillrogers&source=hpp&id=19014596&ct=3&usg=AFQjCNGcHhYrmz7Lsop5TmdwkZ1Zf9Q5nA&amp;sa=X&amp;ved=0ahUKEwje4d_9jNHlAhXjHDQIHeMkACcQ8IcBCBE" rel="nofollow" style="color: #1a0dab" id="link">Explore the life and work of Will Rogers</a>
-</form>
-</section>
-  <!-- Footer -->
+    <div id="explore">
+      <a href="https://www.google.com/url?q=https://artsandculture.google.com/story/fAXh-ndcgalucw%3Futm_source%3Dgoogle%26utm_medium%3Dhppromo%26utm_campaign%3Dwillrogers&source=hpp&id=19014596&ct=3&usg=AFQjCNGcHhYrmz7Lsop5TmdwkZ1Zf9Q5nA&amp;sa=X&amp;ved=0ahUKEwje4d_9jNHlAhXjHDQIHeMkACcQ8IcBCBE" rel="nofollow" style="color: #1a0dab" id="link">Explore the life and work of Will Rogers</a>
+    </div> 
+    </main>
+    <!-- Footer -->
  <footer>
-   <div class="foot">
-     <ul class="foot_bottom">
+   <div id="ft">
+     <ul>
        <li class="left"><a href="#">Advertising</a></li>
        <li class="left"><a href="#">Business</a></li>
        <li class="left"><a href="#">How Search works</a></li>
-     <li class="right"><a href="#">Privacy</a></li>
-     <li class="right"><a href="#">Terms</a></li>
-     <li class="right"><a href="#">Settings</a></li>
+       <li class="right"><a href="#">Privacy</a></li>
+       <li class="right"><a href="#">Terms</a></li>
+       <li class="right"><a href="#">Settings</a></li>
      </ul>
-  </footer>
-   </body>
+  </div>  
+ </footer>
+</body>
 </html>
